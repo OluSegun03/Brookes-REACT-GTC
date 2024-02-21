@@ -1,0 +1,126 @@
+body {
+    background-color: #FBFEFC;
+}
+
+.topHeader {
+    width: 1524px;
+    /* background-color: #0C2718; */
+    height: 48px;
+    display: flex;
+}
+
+.divine {
+    width: 91px;
+    margin-right: 1px;
+    height: 1px;
+    background-color: #E4E7EC;
+    margin-top: -15px;
+    margin-left: 0px;
+}
+
+.containerr {
+    width: 1208px;
+    height: 608px;
+    border-radius: 11px;
+    background-color: #F9FAFB;
+    border: 1px solid #F0F2F5;
+}
+
+.flex {
+    display: flex;
+    margin-left: 50px;
+}
+
+.icon {
+    width: 21.88px;
+    height: 21.88px;
+    border: 1.32px solid #D0D5DD;
+    border-radius: 3.65px;
+    margin-right: 13px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+.icon2 {
+    width: 21.88px;
+    height: 21.88px;
+    border: 1.32px solid #D0D5DD;
+    border-radius: 3.65px;
+    margin-right: 13px;  
+    margin-left: 30px; 
+    margin-top: 0px;
+}
+
+.container02 {
+    background-color: #F3FBF7;
+    width: 1256px;
+    height: 224px;
+    margin-left: 132px;
+    border-radius: 10px;
+    border: 1px solid #E4E7EC;
+
+}
+
+.something {
+    color: #101928;
+    font-weight: 500;
+    font-size: 15.32px;
+    margin-top: 5px
+}
+
+.child {
+    font-size: 13.13px;
+    font-weight: 600;
+    color: #344054;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+.paid {
+    color: #0F973D;
+    font-size: 15.32px;
+    font-weight: 500;
+}
+
+.read {
+    width: 96.26px;
+    height: 26.38px;
+    border-radius: 13.13px;
+    background-color: #E7F6EC;
+    align-items: center;
+    align-content: center;
+    color: #fff;
+}
+
+.notRead {
+    width: 96.26px;
+    height: 26.38px;
+    border-radius: 13.13px;
+    background-color: #E3EFFC;
+    align-items: center;
+    align-content: center;
+    color: #fff;
+}
+
+.lolz {
+    width: 96.26px;
+    height: 26.38px;
+    border-radius: 13.13px;
+    background-color: #F0F2F5;
+    align-items: center;
+    align-content: center;
+    color: #344054;
+}
+.arrows{
+    width: 32.39px;
+    height: 30.39px;
+    border-radius: 6.57px;
+    border: 1px solid #D0D5DD;
+    margin-top: 5px;
+    background-color: #FBFEFC;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}

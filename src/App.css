@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  display: flex;
+}
+.signUp{
+  margin-bottom: 5px;
+}
+.woman{
+  width: 720px;
+  height: 1024px;
+}
+.pic{
+  width: 50%; 
+}
+.name{
+  width: 50%;
+  margin-left: 170px;
+  margin-top: 200px;
+  
+}
+.signUp{
+  font-size: 36px;
+  font-family: inter;
+  font-weight: 700px;
+  letter-spacing: -2px;
+}
+.accTxt{
+  font-size: 14px;
+  /* font-weight: 600; */
+  font-family: inter;
+  margin-top: 5px;
+}
+.phoneNo{
+  width: 454px; 
+  height: 56px;
+  border: 1px solid #2F945C;
+  border-radius: 6px;
+  /* padding: 16px; */
+  margin-top: 16px;
+
+}
+.proceed{
+  width: 454px;
+  height: 56px;
+  border: 1px solid #2F945C;
+  border-radius: 4px;
+  background-color: #2F945C;
+  margin-top: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.image2{
+  width: 454px;
+  height: 5px;
+}
+.last{
+  margin-left: 100px;
+}
+.google{
+  width: 221px;
+  height: 56px;
+  border: 1px solid #D0D5DD;
+  border-radius: 6px;
+}
+.twitter{
+  width: 221px;
+  height: 56px;
+  border: 1px solid #D0D5DD;
+  border-radius: 6px; 
+  margin-left: 20px;
+}
+.divider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 15px 0;
+  padding-right: 255px;
+}
+
+.divider-line {
+  flex: 1;
+  border: 0;
+  height: 1px;
+  width: 100px ;
+  background-color: #999; /* Set the color as needed */
+}
+
+.divider-text {
+  margin: 0 10px; /* Adjust the margin as needed */
+  color: #999; /* Set the color as needed */
+}

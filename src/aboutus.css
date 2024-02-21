@@ -1,0 +1,59 @@
+body{
+    overflow-x: hidden;
+}
+.logina{
+    width: 81px;
+    height: 46px;
+    border: 1.5px solid #2F945C;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: -70px;
+    margin-right: 30px;
+}
+/* .somm{
+    border: 1px solid #D0D5DD;
+} */
+.remmi{
+    font-size: 60px;
+
+}
+.getstarted{
+    width: 178px;
+    height: 50px;
+    background-color: #2F945C;
+    color: #FAFFFD;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 60px;
+    line-height: 50px;
+}
+.info{
+    margin-Top: 556px;
+    width: 260px;
+    height: 310px;
+    background-Color:#F9FAFB;
+    margin-Left: 210px;
+    margin-top: -500px;
+    text-align: center;
+}
+input{
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: #FBFEFC;
+    width: 224px;
+    height: 48px;
+    border-radius: 8px;
+}
+.buttonz{
+    padding: 0;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-weight: normal;
+    font-size: inherit;
+    cursor: pointer;
+    outline: none;
+}

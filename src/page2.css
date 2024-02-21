@@ -1,0 +1,40 @@
+.topHeader{
+    width: 1518px;
+    background-color: #0C2718;
+    height: 48px;
+    display: flex;
+}
+.phoneNo{
+    color: #fff;
+}
+.om{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #D9FFEA;
+    /* align-content: center;  */
+    border-radius: 50%;
+}
+.divine{
+    width: 1100px;
+    height: 0px;
+    border: 2px solid #F0F2F5;
+    margin-top: -20px;
+   
+}
+.tillEnd{
+     margin-left: 170px;
+}
+.product{
+    color: #101928;
+    margin-left: 161px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.product2{
+    color: #101928;
+    margin-left: 161px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 90px;
+}

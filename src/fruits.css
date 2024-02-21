@@ -1,0 +1,57 @@
+.topHeader{
+    width: 1518px;
+    background-color: #0C2718;
+    height: 48px;
+    display: flex;
+}
+.container3{
+    margin-left: 110px;
+    display: block;
+}
+.container4{
+    margin-left: 50px;
+}
+.secndinput{
+    width: 245px;
+    height: 36px;
+    margin-left: 0px;
+    margin-top: -20px;
+    background-color: #fff;
+}
+.divineee{
+    width: 255px;
+    height: 0px;
+    margin-top: 4px;
+    /* color: #; */
+    border: 1px solid #F0F2F5;
+    /* motion-rotation: 0; */
+}
+.pp{
+    display: flex;
+}
+.plus{
+    width: 10px;
+}
+.imagediv{
+    display: block;
+}
+.pics1{
+    display: flex;
+    margin-bottom: 25px;
+}
+.img1{
+    width: 286px;
+    height: 260px;
+}
+.lastDiv{
+    display: flex;
+    width: 111px;
+    height:36px;
+    border-radius: 6px;
+    background-color: #f0f1f1;
+    border: 1px solid #D0D5DD;
+    margin-left: 30px;
+}
+.labelis{
+    margin-left: 36px;
+}
