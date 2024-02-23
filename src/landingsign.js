@@ -99,7 +99,7 @@ function App() {
                     </button>
                 </NavLink>
 
-                <NavLink to={'/cart'}>
+                <NavLink to={'/Ncarts'}>
                     <button style={{ border: 'none', padding: '0', background: 'none', cursor: 'pointer' }}>
                         <img src={icon4} style={{ width: '21.13', height: '21px', top: '1px', marginLeft: '60px', marginTop: '30px', marginRight: '50px' }} />
                     </button>

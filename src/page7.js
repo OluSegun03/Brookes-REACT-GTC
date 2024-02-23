@@ -99,7 +99,7 @@ function App() {
                     <p className="divine" style={{ width: '121px' }}></p>
                 </div>
                 <div style={{ display: 'block' }}>
-                <NavLink to={'/cart'}>
+                <NavLink to={'/Ncarts'}>
                         <button className="buttonz">
                             <p style={{ marginLeft: '16px', fontWeight:'500', fontSize:'16px', marginTop:'20px' }}>Cart</p>
                         </button>

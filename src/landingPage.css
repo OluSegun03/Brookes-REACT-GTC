@@ -1,6 +1,8 @@
-body{
-    overflow-x: hidden;
+body {
+    /* overflow-x: hidden; */
+    background-color: #193c7e;
 }
+
 .container11 {
     width: 1539px;
     height: 48px;
@@ -9,12 +11,12 @@ body{
     /* margin-bottom: 300px; */
 }
 
-.container223{
+.container223 {
     /* margin-top: "360px";  */
     display: flex;
 }
 
-.input77{
+.input77 {
     width: 375px;
     height: 36px;
     margin-top: 20px;
@@ -75,7 +77,8 @@ body{
     margin-right: 59px; */
     display: flex;
 }
-.per20{
+
+.per20 {
     display: flex;
     color: #fff;
     background-color: #FBBC05;
@@ -87,7 +90,8 @@ body{
     justify-content: center;
     /* padding: 7px, 12px, 4px,12px; */
 }
-.per21{
+
+.per21 {
     display: flex;
     color: #FBBC05;
     border: 1px solid #FBBC05;
@@ -98,13 +102,15 @@ body{
     justify-content: center;
     /* padding: 7px, 12px, 4px,12px; */
 }
-.txt{
+
+.txt {
     font-weight: 600;
     font-size: 28px;
     line-height: 36px;
     margin-left: 120px;
 }
-.view{
+
+.view {
     width: 125px;
     height: 36px;
     border-radius: 30px;
@@ -113,23 +119,576 @@ body{
     right: 180px;
     display: flex;
 }
-.addtocart{
+
+.addtocart {
     width: 130px;
     height: 36px;
     border-radius: 16px;
-    border:1px solid#D0D5DD;
+    border: 1px solid#D0D5DD;
     display: flex;
     margin-top: 10px;
 }
-.strLine{
+
+.strLine {
     width: 1216px;
     height: 1px;
-    background-color:#E4E7EC;
-    /* background-color: pink; */
-    /* margin-top: 64px; */
+    background-color: #E4E7EC;
 }
-.finaldiv{
+
+.finaldiv {
     display: flex;
     margin-top: 30px;
     padding-bottom: 40px;
+}
+
+.bgnow {
+    display: block;
+    margin-left: 112px;
+    padding-bottom: 284px;
+    /*  */
+}
+
+.underbg {
+    color: #2F945C;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.bgPepper {
+    width: 548px;
+    height: 696px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.starz {
+    width: 16.67px;
+    height: 15.83px;
+    margin-right: 6px;
+}
+
+.atatxt {
+    margin-top: 39px;
+    font-weight: 600;
+    font-size: 32px;
+    color: #101928;
+
+}
+
+.one {
+    margin-top: -1px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #344054;
+    margin-left: 10px;
+}
+
+.runnig {
+    display: block;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.desc {
+    font-size: 14px;
+    font-weight: 400;
+    color: #667185;
+    margin-top: -20px;
+}
+
+.basket {
+    font-weight: 700;
+    font-size: 24px;
+    color: #101928;
+
+}
+
+.sugg {
+    font-weight: 400;
+    font-size: 14px;
+    color: #667185;
+    margin-top: -20px;
+    padding-bottom: 30px;
+}
+
+.qu {
+    font-weight: 600;
+    font-size: 16px;
+    color: #101928;
+}
+
+.adj {
+    width: 204px;
+    height: 64px;
+    border-radius: 40px;
+    border: 1px solid #F0F2F5;
+    /* border: 1px solid #F9FAFB; */
+    background-color: #F0F2F5;
+    display: flex;
+}
+
+.sub {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 14px;
+    border-radius: 10px;
+    height: 0px;
+    border: 1px solid #667185;
+}
+
+.sms {
+    font-weight: 600;
+    font-size: 22px;
+    color: #FBBC05;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.sms2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FBBC05;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.p1 {
+    margin-left: 20px;
+    margin-top: 3px;
+    width: 19px;
+    border-radius: 10px;
+    height: 1px;
+    border: 1px solid #FBBC05;
+    background-color: #FBBC05;
+    position: absolute;
+    top: 77%;
+}
+
+.p2 {
+    height: 20px;
+    margin-left: 29px;
+    margin-top: 30px;
+    width: 1px;
+    border-radius: 1px;
+    border: 1px solid #FBBC05;
+    position: absolute;
+    top: 72%;
+    background-color: #FBBC05;
+}
+
+.spa {
+    color: #FBBC05;
+    font-weight: 600;
+}
+
+.kan {
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -10px;
+    color: #667185;
+}
+
+.buy {
+    width: 194px;
+    height: 56px;
+    border-radius: 30px;
+    background-color: #2F945C;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin-right: 20px;
+
+}
+
+.addto {
+    width: 194px;
+    height: 56px;
+    border-radius: 30px;
+    color: #2F945C;
+    border: 1px solid #2F945C;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.homeicon {
+    width: 28.09px;
+    height: 26.67px;
+    margin-top: 25.66px;
+    margin-left: 29.66px;
+}
+
+.free {
+    width: 500px;
+    height: 96px;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid #E4E7EC;
+
+}
+
+.freder {
+    color: #101928;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 40px;
+}
+
+.baisc {
+    margin-left: 66px;
+    margin-top: -20px;
+    color: #667185;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.myCarts3 {
+    width: 590px;
+    height: 981px;
+    border: 1px solid #F0F2F5;
+    position: absolute;
+    background-color: #ffffff;
+    left: 850px;
+}
+
+.no3 {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #2F945C;
+    margin-top: 46px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tetx {
+    margin-top: 46px;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.omoo {
+    display: block;
+    margin-left: 40px;
+}
+
+.hmm {
+    width: 210px;
+    height: 190px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.pepp {
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 60px;
+
+}
+
+.henn {
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 10px;
+    position: absolute;
+    top: 16.6%;
+    left: 425px;
+}
+
+.hun5 {
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.adj2 {
+    width: 127.5px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid #F0F2F5;
+    background-color: #F0F2F5;
+    display: flex;
+
+}
+
+.subb {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 11.25px;
+    border-radius: 10px;
+    height: 0px;
+    border: 1px solid #667185;
+}
+
+.plus {
+    width: 20.25px;
+    height: 10.25px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.smzs {
+    font-weight: 500;
+    font-size: 18px;
+    color: #2F945C;
+    margin-left: 22px;
+    margin-top: 8px;
+}
+
+.trash {
+    width: 14px;
+    height: 20.05px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.qqt {
+    color: #475367;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: -3px;
+}
+
+.henn2 {
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 10px;
+    position: absolute;
+    top: 39.2%;
+    left: 425px;
+}
+
+.henn3 {
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 10px;
+    position: absolute;
+    top: 61.6%;
+    left: 425px;
+}
+
+.divinre {
+    /* background-color: pink; */
+    width: 500px;
+    height: 0px;
+    border: 1px solid #F0F2F5;
+    margin-top: 28px;
+    margin-left: 40px;
+}
+
+.subz {
+    font-weight: 400;
+    font-size: 16px;
+    color: #667185;
+    margin-left: 40px;
+}
+
+.henn23 {
+    font-size: 11px;
+    font-weight: 700;
+    /* margin-top: 10px; */
+    position: absolute;
+    top: 83.4%;
+    left: 473px;
+    color: #101928;
+}
+
+.thref {
+    margin-left: 378px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #101928;
+}
+
+.zeo {
+    font-size: 12px;
+    font-weight: 700;
+    /* margin-top: 10px; */
+    position: absolute;
+    top: 83.7%;
+    left: 529px;
+    color: #101928;
+}
+
+.xicon {
+    width: 13.31px;
+    height: 13.31px;
+    margin-top: 40px;
+    margin-left: 300px;
+
+}
+
+.cheout {
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 489px;
+    border-radius: 30px;
+    background-color: #2F945C;
+    height: 56px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 55px;
+}
+
+.container224 {
+    display: block;
+}
+
+.infode {
+    width: 760px;
+    height: 604px;
+    border-radius: 10px;
+    border: 1px solid #E4E7EC;
+    margin-top: -420px;
+    margin-left: 110px;
+}
+
+.deltxt {
+    font-weight: 600;
+    font-size: 24px;
+    color: #101928;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.fn {
+    font-size: 14px;
+    font-weight: 500;
+    color: #344054;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+.oou {
+    margin-left: 32px;
+    margin-top: -10px;
+    border: 1px solid #D0D5DD;
+    width: 325px;
+}
+.ooui {
+    margin-left: 32px;
+    margin-top: -10px;
+    border: 1px solid #D0D5DD;
+    width: 325px;
+    width: 262px;
+    height: 56px;
+}
+.oou2 {
+    margin-left: 32px;
+    margin-top: -10px;
+    border: 1px solid #D0D5DD;
+    width: 685px;
+}
+
+.container2231 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.loll {
+    position: absolute;
+    display: relative;
+    top: 30%;
+    left: 30%;
+    z-index: 1;
+    background-color: white;
+    width: 694px;
+    height: 774px;
+}
+.contain223{
+    margin-left: 32px;
+    margin-top: 28px;
+    display: flex;
+}
+.divie{
+    margin-left: 32px;
+    border: 1px solid #E4E7EC;
+    width: 1024px;
+    height: 0px;
+}
+.personal{
+    margin-top: 40px;
+    margin-left: 32px;
+    display: flex;
+}
+.babe{
+    margin-left: 120px;
+    width: 120px;
+    height: 120px;
+}
+.pfpp{
+    font-weight: 600;
+    font-size: 16px;
+}
+.pfp2{
+    font-size: 400;
+    color: #667185;
+    font-size: 14px;
+    margin-top: -10px;
+}
+.imgic{
+    width: 18.33px;
+    height: 15.83px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ner3{
+    display: flex;
+    width: 148px;
+    height: 36px;
+    border: 1.5px solid #3A9658;
+    color: #3A9658;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.ddd{
+    margin-top: 7px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.cc{
+    font-size: 16px;
+    font-weight: 600;
+    color: #101928;
+    margin-top: -2px;
+}
+.ccc{
+    font-size: 14px;
+    font-weight: 400;
+    color: #667185;
+    margin-top: -2px;
+}
+.sc{
+    display: flex;
+    width: 129px;
+    height: 36px;
+    border: 1px solid #D0D5DD;
+    background-color: #D0D5DD;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+}
+.scb{
+    margin-left: 15px;
+    line-height: 1px;
 }

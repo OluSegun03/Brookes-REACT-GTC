@@ -17,7 +17,7 @@ import mail from './assets/mail.png';
 import vectoree from './assets/Vectoree.png';
 import edit from './assets/edit.png';
 import twitter from './assets/twittter.png';
-
+import loll from './assets/loll.png';
 import fb from './assets/fb.png'
 import ig from "./assets/ig.png";
 import inl from './assets/in.png';
@@ -27,7 +27,7 @@ import { NavLink } from "react-router-dom";
 function App() {
     return (
         <div>
-                    <div className="container11">
+                <div className="container11">
             <div style={{ display: "flex" }}>
                 <img src={icon1} alt="icon" style={{ alignSelf: "center", width: '20.81px', height: "23px", marginLeft: "112px" }} />
                 <p style={{ color: "#fff", fontWeight: "500", fontSize: "12px", alignSelf: "center", opacity: "70%", marginLeft: "5px" }}>+234 70652748</p>
@@ -46,7 +46,7 @@ function App() {
                     <img src={icon8} style={{ width: "12px", height: "6.42px", marginTop: '24px' }} />
                 </div>
             </div>
-            <div className="container223" >
+            <div className="container2231" >
                 <NavLink to={'/landing'}>
                     <button style={{ border: 'none', padding: '0', background: 'none', cursor: 'pointer' }}>
                         <img src={frameM} alt="icon2" style={{ alignSelf: "center", width: '42.74px', height: "43.74px", marginLeft: "112px", color: "#2F945C", marginTop: "10px" }} />
@@ -252,13 +252,6 @@ function App() {
                         </div>
                     </div>
                 </div>
-                <div className="container23" style={{ marginLeft: '100px' }}>
-                    <div style={{ display: 'flex' }}>
-                        <p style={{ width: '15px', height: '15px', borderRadius: '50%', border: '1px solid #D0D5DD', marginLeft: '20px', marginRight: '5px', marginTop: '34px' }}></p>
-                        <p style={{ fontWeight: '600', fontSize: '24px', color: '#101928' }}>Pickup in store</p>
-                        <img src={vectoree} style={{ marginLeft: '500px', width: '10.49px', height: '5.6px', marginTop: '40px' }} />
-                    </div>
-                </div>
             </div>
 
             <div style={{ marginTop: '300px', backgroundColor: '#F9FAFB' }}>
@@ -278,6 +271,10 @@ function App() {
                     <img src={frameM} alt="icon2" style={{ alignSelf: "center", width: '27.52px', height: "27.52px", marginLeft: "112px", color: "#2F945C", marginTop: "px" }} />
                 </div>
             </div>
+            <div style={{backgroundColor:'#fff'}}>
+            <img className="loll" src={loll}/>
+            </div>
+            
         </div>
     );
 }

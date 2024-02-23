@@ -92,7 +92,7 @@ function App() {
                 
                 <input className='input77' type="input" placeholder={"Search here..."} />
                 <img src={icon3} style={{ width: "22px", height: "20px", marginTop: '30px', paddingLeft: "47px" }} />
-                <NavLink to={'/fruits'}>
+                <NavLink to={'/Ncarts'}>
                     <button style={{ border: 'none', padding: '0', background: 'none', cursor: 'pointer' }}>
                         <img src={icon4} style={{ width: '21.13', height: '21px', top: '1px', marginLeft:'30px' , marginTop: '30px', marginRight:'50px' }} />
                     </button>

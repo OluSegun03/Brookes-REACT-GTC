@@ -78,7 +78,7 @@ function App() {
                     </button>
                 </NavLink>
                 
-                <NavLink to={'/cart'}>
+                <NavLink to={'/Ncarts'}>
                     <button className="buttonz">
                     <img src={icon4} style={{ width: '21px', height: "21px", marginTop: '30px', paddingLeft: "40px", marginRight: "130px" }} />
                     </button>

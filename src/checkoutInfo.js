@@ -27,70 +27,70 @@ import { NavLink } from "react-router-dom";
 function App() {
     return (
         <div>
-                    <div className="container11">
-            <div style={{ display: "flex" }}>
-                <img src={icon1} alt="icon" style={{ alignSelf: "center", width: '20.81px', height: "23px", marginLeft: "112px" }} />
-                <p style={{ color: "#fff", fontWeight: "500", fontSize: "12px", alignSelf: "center", opacity: "70%", marginLeft: "5px" }}>+234 70652748</p>
-                <p style={{ color: "#fff", marginLeft: "380px", width: "175px", height: "17px", opacity: "70%", fontWeight: "500", fontSize: "12px", lineHeight: "29px", marginRight: "24px" }}>Get 50% Off on Selected Items</p>
-                <img src={vector} style={{ height: "24px", marginTop: "10px", color: "#fff" }} />
-                <p style={{ color: '#FBBC05', width: '59px', height: '17px', alignSelf: "center", fontSize: "12px", opacity: "70%", marginLeft: '24px' }}>Shop Now</p>
-                <div style={{ display: "flex", marginLeft:'50px'}}>
-                    <p style={{ marginLeft: "200px", color: "#fff", width: '41px', height: '17px', opacity: "70%", alignItems: "center" }}>EN</p>
-                    <img src={icon8} style={{ width: "12px", height: "6.42px", marginTop: '24px' }} />
+            <div className="container11">
+                <div style={{ display: "flex" }}>
+                    <img src={icon1} alt="icon" style={{ alignSelf: "center", width: '20.81px', height: "23px", marginLeft: "112px" }} />
+                    <p style={{ color: "#fff", fontWeight: "500", fontSize: "12px", alignSelf: "center", opacity: "70%", marginLeft: "5px" }}>+234 70652748</p>
+                    <p style={{ color: "#fff", marginLeft: "380px", width: "175px", height: "17px", opacity: "70%", fontWeight: "500", fontSize: "12px", lineHeight: "29px", marginRight: "24px" }}>Get 50% Off on Selected Items</p>
+                    <img src={vector} style={{ height: "24px", marginTop: "10px", color: "#fff" }} />
+                    <p style={{ color: '#FBBC05', width: '59px', height: '17px', alignSelf: "center", fontSize: "12px", opacity: "70%", marginLeft: '24px' }}>Shop Now</p>
+                    <div style={{ display: "flex", marginLeft: '50px' }}>
+                        <p style={{ marginLeft: "200px", color: "#fff", width: '41px', height: '17px', opacity: "70%", alignItems: "center" }}>EN</p>
+                        <img src={icon8} style={{ width: "12px", height: "6.42px", marginTop: '24px' }} />
+                    </div>
+                    <div style={{ display: 'flex', marginLeft: '40px' }}>
+                        <img src={stgreen} style={{ width: "6.67px", height: "14.44px", marginTop: '20px', marginLeft: "50px" }} />
+                        <img src={white} style={{ width: "6.67px", height: '14.44px', marginTop: '20px' }} />
+                        <img src={ndgreen} style={{ width: "6.67px", height: "14.47px", marginTop: '20px' }} />
+                        <p style={{ color: "#fff", opacity: "70%", marginLeft: "5px", marginRight: '10px' }}>Nigeria</p>
+                        <img src={icon8} style={{ width: "12px", height: "6.42px", marginTop: '24px' }} />
+                    </div>
                 </div>
-                <div style={{ display: 'flex', marginLeft:'40px' }}>
-                    <img src={stgreen} style={{ width: "6.67px", height: "14.44px", marginTop: '20px', marginLeft: "50px" }} />
-                    <img src={white} style={{ width: "6.67px", height: '14.44px', marginTop: '20px' }} />
-                    <img src={ndgreen} style={{ width: "6.67px", height: "14.47px", marginTop: '20px' }} />
-                    <p style={{ color: "#fff", opacity: "70%", marginLeft: "5px", marginRight: '10px' }}>Nigeria</p>
-                    <img src={icon8} style={{ width: "12px", height: "6.42px", marginTop: '24px' }} />
-                </div>
-            </div>
-            <div className="container223" >
-                <NavLink to={'/landing'}>
-                    <button style={{ border: 'none', padding: '0', background: 'none', cursor: 'pointer' }}>
-                        <img src={frameM} alt="icon2" style={{ alignSelf: "center", width: '42.74px', height: "43.74px", marginLeft: "112px", color: "#2F945C", marginTop: "10px" }} />
-                    </button>
-                </NavLink>
-                <NavLink to={'/fruits'}>
-                    <button style={{ border: 'none', padding: '0', background: 'none', cursor: 'pointer' }}>
-                        <p style={{ marginTop: "35px", marginLeft: "75px", fontWeight: '600', alignSelf: "center", fontSize: '14px' }}>Fruits</p>
-                    </button>
-                </NavLink>
-                <NavLink to={'/vegetables'}>
-                    <button style={{ border: 'none', padding: '0', background: 'none', cursor: 'pointer' }}>
-                        <p style={{ marginTop: "35px", marginLeft: "75px", fontWeight: '600', alignSelf: "center", fontSize: '14px' }}>Vegetables</p>
-                    </button>
-                </NavLink>
-
-                <NavLink to={'/grains'}>
-                    <button className="buttonz">
-                       <p style={{ marginTop: "15px", marginLeft: "46px", fontWeight: '600', lineHeight: "50px" }}>Grains</p> 
-                    </button>
-                </NavLink>
-                
-                <input className='input77' type="input" placeholder={"Search here..."} />
-                <img src={icon3} style={{ width: "22px", height: "20px", marginTop: '30px', paddingLeft: "47px" }} />
-                <NavLink to={'/Ncarts'}>
-                    <button style={{ border: 'none', padding: '0', background: 'none', cursor: 'pointer' }}>
-                        <img src={icon4} style={{ width: '21.13', height: '21px', top: '1px', marginLeft:'30px' , marginTop: '30px', marginRight:'50px' }} />
-                    </button>
-                </NavLink>
-                
-                <div className="login" style={{ display: "flex" }}>
-                <NavLink to={'/login'}>
+                <div className="container223" >
+                    <NavLink to={'/landing'}>
                         <button style={{ border: 'none', padding: '0', background: 'none', cursor: 'pointer' }}>
-                        <p className="loginn" style={{ marginLeft: "22px", color: "#2F945C", textAlign: "center", fontWeight: '600', lineHeight: "46px" }}>Login</p>
+                            <img src={frameM} alt="icon2" style={{ alignSelf: "center", width: '42.74px', height: "43.74px", marginLeft: "112px", color: "#2F945C", marginTop: "10px" }} />
+                        </button>
+                    </NavLink>
+                    <NavLink to={'/fruits'}>
+                        <button style={{ border: 'none', padding: '0', background: 'none', cursor: 'pointer' }}>
+                            <p style={{ marginTop: "35px", marginLeft: "75px", fontWeight: '600', alignSelf: "center", fontSize: '14px' }}>Fruits</p>
+                        </button>
+                    </NavLink>
+                    <NavLink to={'/vegetables'}>
+                        <button style={{ border: 'none', padding: '0', background: 'none', cursor: 'pointer' }}>
+                            <p style={{ marginTop: "35px", marginLeft: "75px", fontWeight: '600', alignSelf: "center", fontSize: '14px' }}>Vegetables</p>
                         </button>
                     </NavLink>
 
-                    <NavLink to={'/signup'}>
-                        <button style={{ border: 'none', padding: '0', background: 'none', cursor: 'pointer' }}>
-                            <p className="signup" style={{ marginLeft: "22px", color: "#fff", textAlign: "center", fontWeight: '600', lineHeight: "40px", lineHeight:'46px' }}>Sign up</p>
+                    <NavLink to={'/grains'}>
+                        <button className="buttonz">
+                            <p style={{ marginTop: "15px", marginLeft: "46px", fontWeight: '600', lineHeight: "50px" }}>Grains</p>
                         </button>
                     </NavLink>
+
+                    <input className='input77' type="input" placeholder={"Search here..."} />
+                    <img src={icon3} style={{ width: "22px", height: "20px", marginTop: '30px', paddingLeft: "47px" }} />
+                    <NavLink to={'/Ncarts'}>
+                        <button style={{ border: 'none', padding: '0', background: 'none', cursor: 'pointer' }}>
+                            <img src={icon4} style={{ width: '21.13', height: '21px', top: '1px', marginLeft: '30px', marginTop: '30px', marginRight: '50px' }} />
+                        </button>
+                    </NavLink>
+
+                    <div className="login" style={{ display: "flex" }}>
+                        <NavLink to={'/login'}>
+                            <button style={{ border: 'none', padding: '0', background: 'none', cursor: 'pointer' }}>
+                                <p className="loginn" style={{ marginLeft: "22px", color: "#2F945C", textAlign: "center", fontWeight: '600', lineHeight: "46px" }}>Login</p>
+                            </button>
+                        </NavLink>
+
+                        <NavLink to={'/signup'}>
+                            <button style={{ border: 'none', padding: '0', background: 'none', cursor: 'pointer' }}>
+                                <p className="signup" style={{ marginLeft: "22px", color: "#fff", textAlign: "center", fontWeight: '600', lineHeight: "40px", lineHeight: '46px' }}>Sign up</p>
+                            </button>
+                        </NavLink>
+                    </div>
                 </div>
-            </div>
             </div>
             <div style={{ display: 'flex', fontSize: '14px', fontWeight: '500,', marginLeft: '110px', marginTop: '69px' }}>
                 <p style={{ color: '#2F945C', fontWeight: '500', marginRight: '5px' }}>Home</p>
@@ -225,43 +225,44 @@ function App() {
                         </div>
                     </div>
                 </div>
-                <div className="container22" style={{ marginLeft: '100px' }}>
-                    <div style={{ display: 'flex' }}>
-                        <p style={{ width: '15px', height: '15px', borderRadius: '50%', border: '1px solid #D0D5DD', marginLeft: '20px', marginRight: '5px', marginTop: '30px' }}></p>
-                        <div style={{ display: 'flex' }}>
-                            <p style={{ fontWeight: '600', fontSize: '24px', color: '#101928' }}>Delivery Information</p>
-                            <div style={{ display: 'flex' }}>
-                                <img src={edit} style={{ width: '16.67px', height: '16.67px', marginLeft: '400px', marginTop: '30px' }} />
-                                <p style={{ fontWeight: '600', fontSize: '16px', color: '#FBBC05', marginTop: '27px', marginLeft: '8px' }}>Edit</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div style={{ display: 'block', fontWeight: '400', fontSize: '14px', color: '#667185' }}>
-                        <p style={{ fontWeight: '600', fontSize: '16px', color: '#344054', marginLeft: '20px' }}>Alexandra McPherson</p>
-                        <div style={{ display: 'flex' }}>
-                            <img src={flag} style={{ width: '17.5px', height: '16.53px', marginLeft: '20px' }} />
-                            <p style={{ marginTop: '-5px', marginLeft: '10px' }}>somethign and a placeholder</p>
-                        </div>
-                        <div style={{ display: 'flex' }}>
-                            <img src={caller} style={{ width: '17.5px', height: '16.53px', marginLeft: '20px' }} />
-                            <p style={{ marginTop: '-5px', marginLeft: '10px' }}>somethign and a placeholder</p>
-                        </div>
-                        <div style={{ display: 'flex' }}>
-                            <img src={mail} style={{ width: '18.33px', height: '15px', marginLeft: '20px' }} />
-                            <p style={{ marginTop: '-5px', marginLeft: '10px' }}>somethign and a placeholder</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="container23" style={{ marginLeft: '100px' }}>
-                    <div style={{ display: 'flex' }}>
-                        <p style={{ width: '15px', height: '15px', borderRadius: '50%', border: '1px solid #D0D5DD', marginLeft: '20px', marginRight: '5px', marginTop: '34px' }}></p>
-                        <p style={{ fontWeight: '600', fontSize: '24px', color: '#101928' }}>Pickup in store</p>
-                        <img src={vectoree} style={{ marginLeft: '500px', width: '10.49px', height: '5.6px', marginTop: '40px' }} />
-                    </div>
-                </div>
-            </div>
 
-            <div style={{ marginTop: '300px', backgroundColor: '#F9FAFB' }}>
+<div className='infode'>
+<p className="deltxt">Delivery Information</p>
+<div className='container223'>
+    <div className='container234'>
+        <p className="fn">First Name</p>
+        <input className="oou"/>
+    </div>
+    <div className='container234'>
+        <p className="fn">Last Name</p>
+        <input className="oou"/>
+    </div>
+</div>
+<p className="fn">Address</p>
+<input className="oou2"/>
+<p className="fn">Nearest Bus stop</p>
+<input className="oou2"/>
+<div className='container223'>
+    <div className='container234'>
+        <p  className="fn">City/Town</p>
+        <input className="oou"/>
+    </div>
+    <div className='container234'>
+        <p  className="fn">Zip Code</p>
+        <input className="oou"/>
+    </div>
+</div>
+<div className='container223'>
+    <div className='container234'>
+        <p  className="fn">Mobile Number </p>
+        <input className="oou"/>
+    </div>
+    <div className='container234'>
+        <p  className="fn">Email address</p>
+        <input className="oou"/>
+    </div>
+</div>
+</div>
 
                 <p style={{ fontWeight: '600', fontSize: '12px', color: '#667185', marginLeft: '120px', paddingTop: '80px' }}>LIKE WHAT YOU SEE?</p>
                 <p style={{ fontWeight: '700', fontSize: '28px', color: '#101928', marginTop: '1px', marginLeft: '120px' }}>Let's work together </p>

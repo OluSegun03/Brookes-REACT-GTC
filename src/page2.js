@@ -6,7 +6,6 @@ import vector from "./assets/Vector 1.png";
 import stgreen from "./assets/1stgreen.png"
 import white from "./assets/white.png"
 import ndgreen from "./assets/2ndgreen.png"
-import icon3 from "./assets/heart.jpg";
 import icon4 from "./assets/icon.jpg";
 import frameM from "./assets/Frame 427321331.png";
 import heartt from './assets/heartt.png';
@@ -68,7 +67,7 @@ function App() {
                         </button>
                     </NavLink>
 
-                    <NavLink to={'/cart'}>
+                    <NavLink to={'/Ncarts'}>
                         <button style={{ border: 'none', padding: '0', background: 'none', cursor: 'pointer' }}>
                             <img src={icon4} style={{ width: '21.13', height: '21px', top: '1px', marginLeft: '60px', marginTop: '30px', marginRight: '50px' }} />
                         </button>
